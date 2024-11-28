@@ -1,0 +1,19 @@
+{
+	"name": "6502emu",
+	"version": "1.0.0",
+	"main": "index.js",
+	"devDependencies": {
+		"@types/node": "^22.9.4",
+		"prettier": "^3.3.3",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2"
+	},
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc -w",
+		"test": "tsx --test ./src/*.test.ts"
+	},
+	"author": "",
+	"license": "MIT",
+	"description": ""
+}
